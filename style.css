@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    user-select: none; 
+}
+.appName{
+    padding-bottom:50px;
+    font-size: 2.8rem;
+    text-align: center;
+    color: #f50808;
+}
+.reset-btn{
+    /* margin-top: 2rem; */
+    padding: 8px 70px;
+    font-size: 1.1rem;
+    font-family: 'Protest Riot', sans-serif;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    background: #bd1313;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+.reset-btn:hover{
+    background: #ff0000;
+
+}
+.counter{
+    font-size: 10rem;
+    margin: 4rem;
+    color: rgb(253, 3, 3);
+}
+.note{
+    font-size: 1.4rem;
+    font-style: oblique;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(129, 31, 31);
+}
